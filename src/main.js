@@ -4,7 +4,6 @@ import VueResource from "vue-resource";
 import VueRouter from "vue-router";
 import VeeValidate, { Validator } from "vee-validate";
 import msg from "./pt_BR";
-import "bootstrap/dist/css/bootstrap.css";
 
 import { routes } from "./routes";
 import "./directives/Transform";
