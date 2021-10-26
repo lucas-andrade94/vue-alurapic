@@ -43,6 +43,7 @@ export default {
   margin: 0 0 15px 0;
   padding: 10px;
   text-transform: uppercase;
+  height: 3rem;
 }
 
 * {
@@ -56,6 +57,10 @@ export default {
 
 .painel-fade-enter-active,
 .painel-fade-leave-active {
-  transition: opacity .3s;
+  transition: opacity 0.3s;
+}
+
+.painel-conteudo {
+  overflow: hidden;
 }
 </style>
